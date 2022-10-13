@@ -1,0 +1,7 @@
+mysql-connector-python==8.0.17
+datetime==4.3
+flask==2.0.2
+python-dotenv==0.21.0
+flask-jwt-extended==4.4.4
+pathlib==1.0.1
+cryptography==36.0.2

@@ -1,0 +1,27 @@
+version: "3.7"
+services: 
+  # db:
+  #   image: mysql
+  #   restart: always
+  #   command: --default-authentication-plugin=mysql_native_password
+  #   environment:
+  #     MYSQL_DATABASE: 'carford_car_shop_database'
+  #     MYSQL_USER: 'mts'
+  #     MYSQL_PASSWORD: '123'
+  #     MYSQL_ROOT_PASSWORD: 'root'
+  #   volumes:
+  #     - "./database/model.sql:/docker-entrypoint-initdb.d/model.sql"
+  #   ports:
+  #     - '3306:3306'
+  #   expose:
+  #     - '3306'
+  api:
+    build: "./backend/api"
+    container_name: python-container
+    environment:
+      SECRET_KEY: "b+sIrZ+Lk1AvpG8M2PkR6WtG9MNHhsLzargmzLiepLo="
+    restart: always
+    ports:
+      - "5000:5000"
+    expose:
+      - '5000'
