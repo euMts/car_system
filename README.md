@@ -32,5 +32,4 @@ Car owners may not have cars yet, they need to be marked as a sale opportunity.<
 Cars cannot exist in the system without owners.<br>
 <br>
 ## To-do:
-- Dockerize MYSQL<br>
-- Set up the config of the api and database<br>
+- Finish dockerizing MYSQL<br>

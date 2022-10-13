@@ -32,5 +32,4 @@ Donos de carros podem não ter carros ainda, eles devem ser marcados como possí
 Carros não podem existir no sistema sem donos.<br>
 <br>
 ## A fazer:
-- Dockerizar MYSQL<br>
-- Configurar conexão da api com o banco<br>
+- Terminar de dockerizar o MYSQL<br>
